@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Painter.DrawView
+        android:id = "@+id/drawing"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_above = "@+id/figureValue"/>
+
+    <SeekBar
+        android:id = "@+id/figureValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above = "@+id/btnContanier"/>
+
+    <RelativeLayout
+        android:id = "@+id/btnContanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom = "true"
+        android:layout_margin = "5dp">
+
+        <Button
+            android:id = "@+id/btnBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent = "true"
+            android:text = "Bar"/>
+        <Button
+            android:id = "@+id/btnSimple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf = "@+id/btnBar"
+            android:text = "Simple"/>
+        <Button
+            android:id = "@+id/btnCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf = "@+id/btnBar"
+            android:text = "Circle"/>
+    </RelativeLayout>
+</RelativeLayout>

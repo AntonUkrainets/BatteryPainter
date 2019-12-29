@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Painter", "Painter\Painter.csproj", "{51A8C955-D5F1-4E6A-AB50-754429C99EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30B781EA-010E-4FC2-88AC-9534CD9777E7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A8C955-D5F1-4E6A-AB50-754429C99EAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD5FADE2-B208-4153-9909-3CABF0F3287A}
+	EndGlobalSection
+EndGlobal
